@@ -1,21 +1,14 @@
-#include <sys/types.h>          /* See NOTES */
-#include <net/if.h>
-#include <poll.h>
-#include <linux/nl80211.h>
+#include <err.h>
 #include <linux/if_link.h>
-#include <unistd.h>
-#include <sys/socket.h>
 #include <linux/netlink.h>
 #include <linux/rtnetlink.h>
-#include <string.h>
-#include <err.h>
+#include <net/if.h>
 #include <stdio.h>
-#include <errno.h>
-#include <sys/types.h>
 #include <stdlib.h>
+#include <string.h>
 #include <sys/socket.h>
-#include <netdb.h>
-#include <ifaddrs.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 typedef unsigned long long u64;
 
